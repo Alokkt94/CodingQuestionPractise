@@ -3,7 +3,7 @@ package Arrays;
 public class NumberOfGoodPairs {
 
     public static void main(String[] args) {
-        int arr[] = new int[]{1,2,3};
+        int arr[] = new int[]{1,1,1,2,2,3};
         int num = numIdenticalPairs(arr);
         System.out.println(num);
     }
